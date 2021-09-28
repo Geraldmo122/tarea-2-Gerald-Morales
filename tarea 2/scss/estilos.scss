@@ -1,0 +1,125 @@
+#formulario h1{
+    font-size: 32px;
+    text-align: center;
+}
+#formulario{
+    width: 60%;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px;
+    font-family: 'calibri';
+    color: white;
+}
+#formulario ul li{
+    margin-top: 60px;
+}
+.lado input{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px; 
+    color: white;
+    border: 1px solid #1f53c5;
+}
+.abajo input{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px; 
+    color: white;
+    border: 1px solid #1f53c5;
+}
+.rango input{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px; 
+    color: white;
+    border: 1px solid #1f53c5;    
+}
+ul
+{
+    list-style: none;
+}
+.lado label{
+    width: 7%;
+    height: 2px;
+}
+.lado input{
+    position: relative;
+    top: 12px;
+}
+.abajo label{
+    height: 0mm;
+    display: inherit;
+}
+.abajo input{
+    position: relative;
+    top: 33px;
+}
+.rango label{
+    height: 1%;
+    display: inherit;    
+}
+ul li{
+    position: relative;
+    font-size: 15px;
+    padding: 8px;
+    
+}
+
+.botones #enviar{
+    background:#1f53c5 ;
+    border: none;
+    padding: 12px;
+    width: 25%;
+    padding: 12px;
+    color: white;
+
+}
+.botones #reset{
+    background: red;
+    border: none;
+    width: 25%;
+    padding: 12px;
+    margin: 16px;
+    color: white;
+
+}
+.botones #reset:hover{
+    background: #318aac;
+    color: #fff !important;
+    
+}
+.botones #enviar:hover{
+    background: #318aac;
+    color: #fff !important;
+    
+}
+#opinion{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: linear-gradient(225deg, #a2aaf6 0, #6b89e9 50%, #006bdc 100%);
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+h3{
+    font-size: 70px;  
+    color: wheat;
+}
